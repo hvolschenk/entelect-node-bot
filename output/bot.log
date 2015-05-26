@@ -1,0 +1,2116 @@
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:32:144 	[BOT] 	 Started.
+2015-05-26 01:03:32:159 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   0      #
+# Kills: 0        #
+# Lives: 3        #
+# Missiles: 0/1   #
+###################
+#                 #
+#       VVV       #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+#                 #
+###################
+# Missiles: 0/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   0      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:32:166 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:32:167 	[BOT] 	 Finished in 22ms.
+[GAME]	Bot Node Sample Bot finished in 304 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:32:790 	[BOT] 	 Started.
+2015-05-26 01:03:32:807 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   1      #
+# Kills: 0        #
+# Lives: 2        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#         x  x  x #
+#                 #
+#         x  x  x #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#      AAA        #
+#                 #
+###################
+# Missiles: 0/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   1      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 7, y: 22 },
+  { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 } ]
+2015-05-26 01:03:32:814 	[BOT] 	 Move: Shoot
+2015-05-26 01:03:32:815 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 294 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:33:484 	[BOT] 	 Started.
+2015-05-26 01:03:33:499 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   2      #
+# Kills: 0        #
+# Lives: 2        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#        x  x  x  #
+#                 #
+#        x  x  x  #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---   !     --- #
+#      AAA        #
+#                 #
+###################
+# Missiles: 1/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   2      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 7, y: 22 },
+  { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 } ]
+2015-05-26 01:03:33:505 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:33:505 	[BOT] 	 Finished in 22ms.
+[GAME]	Bot Node Sample Bot finished in 294 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:34:114 	[BOT] 	 Started.
+2015-05-26 01:03:34:129 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   3      #
+# Kills: 0        #
+# Lives: 2        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#       x  x  x   #
+#                 #
+#       x  x  x   #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---   !     --- #
+# ---         --- #
+#     AAA         #
+#                 #
+###################
+# Missiles: 1/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   3      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 6, y: 22 },
+  { id: 85, type: 'Ship', x: 7, y: 22 },
+  { id: 85, type: 'Ship', x: 8, y: 22 } ]
+2015-05-26 01:03:34:135 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:34:135 	[BOT] 	 Finished in 22ms.
+[GAME]	Bot Node Sample Bot finished in 291 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:34:748 	[BOT] 	 Started.
+2015-05-26 01:03:34:763 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   4      #
+# Kills: 0        #
+# Lives: 2        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#      x  x  x    #
+#                 #
+#      x  x  x    #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---   !     --- #
+# ---         --- #
+# ---         --- #
+#    AAA          #
+#                 #
+###################
+# Missiles: 1/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   4      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 5, y: 22 },
+  { id: 85, type: 'Ship', x: 6, y: 22 },
+  { id: 85, type: 'Ship', x: 7, y: 22 } ]
+2015-05-26 01:03:34:769 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:34:770 	[BOT] 	 Finished in 22ms.
+[GAME]	Bot Node Sample Bot finished in 291 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:35:375 	[BOT] 	 Started.
+2015-05-26 01:03:35:393 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   5      #
+# Kills: 0        #
+# Lives: 2        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#     x  x  x     #
+#                 #
+#                 #
+#                 #
+#                 #
+#       !         #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#   AAA           #
+#                 #
+###################
+# Missiles: 1/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   5      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 4, y: 22 },
+  { id: 85, type: 'Ship', x: 5, y: 22 },
+  { id: 85, type: 'Ship', x: 6, y: 22 } ]
+2015-05-26 01:03:35:399 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:35:400 	[BOT] 	 Finished in 24ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:36:016 	[BOT] 	 Started.
+2015-05-26 01:03:36:034 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   6      #
+# Kills: 0        #
+# Lives: 2        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#          |      #
+#    x  x  x      #
+#                 #
+#    x  x  x      #
+#          |      #
+#                 #
+#                 #
+#       !         #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#  AAA            #
+#                 #
+###################
+# Missiles: 1/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   6      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 3, y: 22 },
+  { id: 85, type: 'Ship', x: 4, y: 22 },
+  { id: 85, type: 'Ship', x: 5, y: 22 } ]
+2015-05-26 01:03:36:040 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:36:041 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 293 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:36:664 	[BOT] 	 Started.
+2015-05-26 01:03:36:679 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   7      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#                 #
+#                 #
+#                 #
+#          |      #
+#                 #
+#   x  x  x       #
+#                 #
+#   x  x  x       #
+#                 #
+#          |      #
+#       !         #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+# AAA             #
+#                 #
+###################
+# Missiles: 1/1   #
+# Lives: 3        #
+# Kills: 0        #
+# Round:   7      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 2, y: 22 },
+  { id: 85, type: 'Ship', x: 3, y: 22 },
+  { id: 85, type: 'Ship', x: 4, y: 22 } ]
+2015-05-26 01:03:36:685 	[BOT] 	 Move: BuildAlienFactory
+2015-05-26 01:03:36:686 	[BOT] 	 Finished in 22ms.
+[GAME]	Bot Node Sample Bot finished in 288 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:37:342 	[BOT] 	 Started.
+2015-05-26 01:03:37:359 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   8      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#                 #
+#                 #
+#          |      #
+#                 #
+#                 #
+#  x  x  x        #
+#                 #
+#  x  x  x        #
+#                 #
+#       !         #
+#          |      #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+# AAA             #
+# XXX             #
+###################
+# Missiles: 1/1   #
+# Lives: 2        #
+# Kills: 0        #
+# Round:   8      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 2, y: 22 },
+  { id: 85, type: 'Ship', x: 3, y: 22 },
+  { id: 85, type: 'Ship', x: 4, y: 22 } ]
+2015-05-26 01:03:37:365 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:37:366 	[BOT] 	 Finished in 24ms.
+[GAME]	Bot Node Sample Bot finished in 301 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:37:977 	[BOT] 	 Started.
+2015-05-26 01:03:37:992 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:   9      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#                 #
+#          |      #
+#                 #
+#                 #
+#                 #
+# x  x  x         #
+#                 #
+# x  x  x         #
+#       !         #
+#                 #
+#                 #
+#          |      #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#  AAA            #
+# XXX             #
+###################
+# Missiles: 1/1   #
+# Lives: 2        #
+# Kills: 0        #
+# Round:   9      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 3, y: 22 },
+  { id: 85, type: 'Ship', x: 4, y: 22 },
+  { id: 85, type: 'Ship', x: 5, y: 22 } ]
+2015-05-26 01:03:37:998 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:37:999 	[BOT] 	 Finished in 21ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:38:611 	[BOT] 	 Started.
+2015-05-26 01:03:38:626 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  10      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#          |      #
+#                 #
+#                 #
+#                 #
+#                 #
+#x  x  x          #
+#                 #
+#x  x             #
+#                 #
+#                 #
+#                 #
+#                 #
+#          |      #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#   AAA           #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  10      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 4, y: 22 },
+  { id: 85, type: 'Ship', x: 5, y: 22 },
+  { id: 85, type: 'Ship', x: 6, y: 22 } ]
+2015-05-26 01:03:38:634 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:38:634 	[BOT] 	 Finished in 23ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:39:243 	[BOT] 	 Started.
+2015-05-26 01:03:39:260 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  11      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  --- |  --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#x  x  x          #
+#                 #
+#                 #
+#                 #
+#x  x             #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---      |  --- #
+# ---         --- #
+# ---         --- #
+#    AAA          #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  11      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 5, y: 22 },
+  { id: 85, type: 'Ship', x: 6, y: 22 },
+  { id: 85, type: 'Ship', x: 7, y: 22 } ]
+2015-05-26 01:03:39:268 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:39:269 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:39:873 	[BOT] 	 Started.
+2015-05-26 01:03:39:890 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  12      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  --- |  --- #
+# ---  ---    --- #
+#                 #
+#                 #
+#                 #
+# |               #
+# x  x  x         #
+#                 #
+#                 #
+#                 #
+# x  x            #
+# |               #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---      |  --- #
+# ---         --- #
+#     AAA         #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  12      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 6, y: 22 },
+  { id: 85, type: 'Ship', x: 7, y: 22 },
+  { id: 85, type: 'Ship', x: 8, y: 22 } ]
+2015-05-26 01:03:39:898 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:39:899 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:40:508 	[BOT] 	 Started.
+2015-05-26 01:03:40:523 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  13      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  --- |  --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#                 #
+#                 #
+# |               #
+#                 #
+#  x  x  x        #
+#                 #
+#                 #
+#                 #
+#  x  x           #
+#                 #
+# |               #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---      |  --- #
+#      AAA        #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  13      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 7, y: 22 },
+  { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 } ]
+2015-05-26 01:03:40:531 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:40:531 	[BOT] 	 Finished in 24ms.
+[GAME]	Bot Node Sample Bot finished in 288 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:41:141 	[BOT] 	 Started.
+2015-05-26 01:03:41:156 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  14      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV|      #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#                 #
+# |               #
+#                 #
+#                 #
+#   x  x  x       #
+#                 #
+#                 #
+#                 #
+#   x  x          #
+#                 #
+#                 #
+# |               #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#       AAA|      #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  14      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:41:164 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:41:164 	[BOT] 	 Finished in 23ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:41:773 	[BOT] 	 Started.
+2015-05-26 01:03:41:791 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  15      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#       MMM|      #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+# |               #
+#                 #
+#                 #
+#                 #
+#    x  x  x      #
+#                 #
+#                 #
+#                 #
+#    x  x         #
+#                 #
+#                 #
+#                 #
+# |               #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#        AAA      #
+# XXX      |      #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  15      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 } ]
+2015-05-26 01:03:41:799 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:41:799 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:42:411 	[BOT] 	 Started.
+2015-05-26 01:03:42:429 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  16      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---i   --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#                 #
+#                 #
+#     x  x        #
+#                 #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#         AAA     #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  16      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 } ]
+2015-05-26 01:03:42:436 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:42:437 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:43:043 	[BOT] 	 Started.
+2015-05-26 01:03:43:061 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  17      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---i   --- #
+#  --  ---    --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#      x  x  x    #
+#                 #
+#                 #
+#                 #
+#      x  x       #
+#                 #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#          AAA    #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  17      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 } ]
+2015-05-26 01:03:43:069 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:43:070 	[BOT] 	 Finished in 27ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:43:677 	[BOT] 	 Started.
+2015-05-26 01:03:43:693 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  18      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---i   --- #
+#                 #
+#                 #
+#                 #
+#       |         #
+#       x  x  x   #
+#                 #
+#                 #
+#                 #
+#       x  x      #
+#          |      #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#           AAA   #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  18      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 },
+  { id: 85, type: 'Ship', x: 14, y: 22 } ]
+2015-05-26 01:03:43:700 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:43:701 	[BOT] 	 Finished in 23ms.
+[GAME]	Bot Node Sample Bot finished in 288 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:44:311 	[BOT] 	 Started.
+2015-05-26 01:03:44:328 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  19      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#         i       #
+#                 #
+#       |         #
+#                 #
+#        x  x  x  #
+#                 #
+#                 #
+#                 #
+#        x  x     #
+#                 #
+#          |      #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#            AAA  #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  19      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 13, y: 22 },
+  { id: 85, type: 'Ship', x: 14, y: 22 },
+  { id: 85, type: 'Ship', x: 15, y: 22 } ]
+2015-05-26 01:03:44:335 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:44:335 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:44:945 	[BOT] 	 Started.
+2015-05-26 01:03:44:963 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  20      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#                 #
+#       | i       #
+#                 #
+#                 #
+#         x  x  x #
+#                 #
+#                 #
+#                 #
+#         x  x    #
+#                 #
+#                 #
+#          |      #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#             AAA #
+# XXX             #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills: 1        #
+# Round:  20      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 14, y: 22 },
+  { id: 85, type: 'Ship', x: 15, y: 22 },
+  { id: 85, type: 'Ship', x: 16, y: 22 } ]
+2015-05-26 01:03:44:970 	[BOT] 	 Move: BuildMissileController
+2015-05-26 01:03:44:970 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 291 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:45:583 	[BOT] 	 Started.
+2015-05-26 01:03:45:598 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  21      #
+# Kills: 0        #
+# Lives: 1        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  - -    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#       |         #
+#                 #
+#         i       #
+#                 #
+#          x  x  x#
+#                 #
+#                 #
+#                 #
+#          x  x   #
+#                 #
+#                 #
+#                 #
+#          |      #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#             AAA #
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  21      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 14, y: 22 },
+  { id: 85, type: 'Ship', x: 15, y: 22 },
+  { id: 85, type: 'Ship', x: 16, y: 22 } ]
+2015-05-26 01:03:45:606 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:45:607 	[BOT] 	 Finished in 24ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:46:212 	[BOT] 	 Started.
+2015-05-26 01:03:46:230 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  22      #
+# Kills: 0        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#                 #
+#                 #
+#                 #
+#         ix  x  x#
+#                 #
+#                 #
+#                 #
+#                 #
+#           x  x  #
+#                 #
+#                 #
+#                 #
+#                 #
+#  --      |  --- #
+# ---         --- #
+# ---         --- #
+#            AAA  #
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  22      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 13, y: 22 },
+  { id: 85, type: 'Ship', x: 14, y: 22 },
+  { id: 85, type: 'Ship', x: 15, y: 22 } ]
+2015-05-26 01:03:46:238 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:46:239 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 288 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:46:846 	[BOT] 	 Started.
+2015-05-26 01:03:46:864 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  23      #
+# Kills: 0        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#                 #
+#                 #
+#                 #
+#         x  x  x #
+#         i       #
+#      x  x  x  x #
+#                 #
+#                 #
+#            x  x #
+#                 #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---      |  --- #
+# ---         --- #
+#           AAA   #
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  23      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 },
+  { id: 85, type: 'Ship', x: 14, y: 22 } ]
+2015-05-26 01:03:46:871 	[BOT] 	 Move: Shoot
+2015-05-26 01:03:46:872 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 288 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:47:482 	[BOT] 	 Started.
+2015-05-26 01:03:47:496 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  24      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#                 #
+#                 #
+#              |  #
+#        x  x  x  #
+#                 #
+#     x     x  x  #
+#                 #
+#                 #
+#             x  x#
+#                |#
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---      | !--- #
+#           AAA   #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  24      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 },
+  { id: 85, type: 'Ship', x: 14, y: 22 } ]
+2015-05-26 01:03:47:505 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:47:506 	[BOT] 	 Finished in 23ms.
+[GAME]	Bot Node Sample Bot finished in 287 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:48:110 	[BOT] 	 Started.
+2015-05-26 01:03:48:128 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  25      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#                 #
+#              |  #
+#                 #
+#       x  x  x   #
+#                 #
+#    x     x  x   #
+#                 #
+#                 #
+#                 #
+#             x  x#
+#                |#
+#                 #
+#                 #
+#  --         --- #
+# ---        !--- #
+# ---         --- #
+#          |AAA   #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  25      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 },
+  { id: 85, type: 'Ship', x: 14, y: 22 } ]
+2015-05-26 01:03:48:137 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:48:138 	[BOT] 	 Finished in 27ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:48:747 	[BOT] 	 Started.
+2015-05-26 01:03:48:764 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  26      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    --- #
+#              |  #
+#                 #
+#                 #
+#      x  x  x    #
+#                 #
+#   x     x  x    #
+#                 #
+#         x  x  x #
+#                 #
+#            x  x #
+#                 #
+#                |#
+#                 #
+#  --        !--- #
+# ---         --- #
+# ---         --- #
+#          AAA    #
+# XXX      |  MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  26      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 } ]
+2015-05-26 01:03:48:773 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:48:774 	[BOT] 	 Finished in 28ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:49:381 	[BOT] 	 Started.
+2015-05-26 01:03:49:399 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  27      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#      VVV        #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#  x     x  x     #
+#                 #
+#        x  x  x  #
+#                 #
+#           x  x  #
+#                 #
+#                 #
+#            !   |#
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#          AAA    #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  27      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 } ]
+2015-05-26 01:03:49:408 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:49:409 	[BOT] 	 Finished in 27ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:50:018 	[BOT] 	 Started.
+2015-05-26 01:03:50:033 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  28      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#       VVV       #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#                 #
+#                 #
+#    x  x  x      #
+#                 #
+# x     x  x      #
+#                 #
+#       x  x  x   #
+#                 #
+#          x  x   #
+#                 #
+#            !    #
+#                 #
+#  --         ---|#
+# ---         --- #
+# ---         --- #
+#          AAA    #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  28      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 } ]
+2015-05-26 01:03:50:042 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:50:043 	[BOT] 	 Finished in 24ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:50:650 	[BOT] 	 Started.
+2015-05-26 01:03:50:668 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  29      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#                 #
+#                 #
+#   x  x  x       #
+#                 #
+#x     x  x       #
+#                 #
+#      x  x  x    #
+#                 #
+#         x  x    #
+#            !    #
+#                 #
+#                 #
+#  --         --- #
+# ---         ---|#
+# ---         --- #
+#          AAA    #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 1        #
+# Round:  29      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 } ]
+2015-05-26 01:03:50:676 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:50:677 	[BOT] 	 Finished in 27ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:51:286 	[BOT] 	 Started.
+2015-05-26 01:03:51:301 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  30      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#         |       #
+#   x  x  x       #
+#                 #
+#x     x  x       #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#        x        #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         ---|#
+#          AAA    #
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  30      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 },
+  { id: 85, type: 'Ship', x: 13, y: 22 } ]
+2015-05-26 01:03:51:310 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:51:311 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:51:917 	[BOT] 	 Started.
+2015-05-26 01:03:51:932 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  31      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---i   --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#         |       #
+#                 #
+#    x  x  x      #
+#                 #
+# x     x  x      #
+#                 #
+#                 #
+#    x  x  x      #
+#                 #
+#       x         #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#         AAA    |#
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  31      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 } ]
+2015-05-26 01:03:51:941 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:51:941 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 291 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:52:549 	[BOT] 	 Started.
+2015-05-26 01:03:52:566 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  32      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---i   --- #
+#  --  ---|   - - #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#  x     x  x     #
+#                 #
+#                 #
+#   x  x  x       #
+#                 #
+#      x          #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#        AAA      #
+# XXX         MMM|#
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  32      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 } ]
+2015-05-26 01:03:52:574 	[BOT] 	 Move: Shoot
+2015-05-26 01:03:52:574 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:53:185 	[BOT] 	 Started.
+2015-05-26 01:03:53:200 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  33      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#                 #
+#      x  x  x    #
+#                 #
+#   x     x  x    #
+#                 #
+#                 #
+#  x  x  x        #
+#                 #
+#     x           #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---     !   --- #
+#        AAA      #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  33      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 } ]
+2015-05-26 01:03:53:209 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:53:210 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 292 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:53:815 	[BOT] 	 Started.
+2015-05-26 01:03:53:830 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  34      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#                 #
+#       x  x  x   #
+#                 #
+#    x     x  x   #
+#                 #
+#                 #
+# x  x  x         #
+#                 #
+#    x            #
+#                 #
+#                 #
+#                 #
+#  --         --- #
+# ---     !   --- #
+# ---         --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  34      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:53:838 	[BOT] 	 Move: Shoot
+2015-05-26 01:03:53:838 	[BOT] 	 Finished in 23ms.
+[GAME]	Bot Node Sample Bot finished in 287 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:54:447 	[BOT] 	 Started.
+2015-05-26 01:03:54:465 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  35      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#                 #
+#        x  x  x  #
+#                 #
+#     x     x  x  #
+#                 #
+#                 #
+#x  x  x          #
+#                 #
+#   x             #
+#                 #
+#                 #
+#                 #
+#  --     !   --- #
+# ---         --- #
+# ---    !    --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 2/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  35      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:54:472 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:54:473 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:55:079 	[BOT] 	 Started.
+2015-05-26 01:03:55:096 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  36      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#            |    #
+#         x  x  x #
+#                 #
+#      x     x  x #
+#                 #
+#                 #
+#                 #
+#x  x  x          #
+#|                #
+#   x             #
+#                 #
+#         !       #
+#  --         --- #
+# ---    !    --- #
+# ---         --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 2/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  36      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:55:104 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:55:104 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 287 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:55:718 	[BOT] 	 Started.
+2015-05-26 01:03:55:733 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  37      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#        VVV      #
+# ---  ---i   --- #
+# ---  ---    --- #
+#  --  ---    - - #
+#            |    #
+#                 #
+#          x  x  x#
+#                 #
+#       x     x  x#
+#                 #
+#                 #
+#                 #
+# x  x  x         #
+#                 #
+#|   x            #
+#         !       #
+#                 #
+#  --    !    --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 2/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  37      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:55:740 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:55:741 	[BOT] 	 Finished in 23ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:56:349 	[BOT] 	 Started.
+2015-05-26 01:03:56:367 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  38      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#         VVV     #
+# ---  ---    --- #
+# ---  ---i   --- #
+#  --  ---   |- - #
+#                 #
+#          x  x  x#
+#                 #
+#       x     x  x#
+#                 #
+#                 #
+#                 #
+#                 #
+#  x  x  x        #
+#                 #
+#     x   !       #
+#|                #
+#        !        #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 2/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  38      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:56:374 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:56:375 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:56:992 	[BOT] 	 Started.
+2015-05-26 01:03:57:010 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  39      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#         VVV     #
+# ---  ---    --- #
+# ---  ---   |--- #
+#  --  ---i   - - #
+#                 #
+#         x  x  x #
+#                 #
+#      x     x  x #
+#                 #
+#      x  x  x  x #
+#                 #
+#                 #
+#   x  x  x       #
+#         !       #
+#      x          #
+#        !        #
+#|                #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 2/2   #
+# Lives: 1        #
+# Kills: 2        #
+# Round:  39      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:57:018 	[BOT] 	 Move: Nothing
+2015-05-26 01:03:57:019 	[BOT] 	 Finished in 27ms.
+[GAME]	Bot Node Sample Bot finished in 294 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:57:629 	[BOT] 	 Started.
+2015-05-26 01:03:57:644 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  40      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 2/2   #
+###################
+#       MMM       #
+#         VVV     #
+# ---  --- i |--- #
+# ---  ---    --- #
+#  --  ---    - - #
+#         i       #
+#        x  x  x  #
+#                 #
+#     x     x  x  #
+#                 #
+#     x  x  x  x  #
+#                 #
+#                 #
+#    x  x         #
+#                 #
+#       x!        #
+#                 #
+#                 #
+#| --         --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 3        #
+# Round:  40      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:03:57:653 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:57:654 	[BOT] 	 Finished in 24ms.
+[GAME]	Bot Node Sample Bot finished in 290 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:58:264 	[BOT] 	 Started.
+2015-05-26 01:03:58:279 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  41      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 2/2   #
+###################
+#       MMM       #
+#         VVV|    #
+# ---  ---    --- #
+# ---  --- i  --- #
+#  --  ---    - - #
+#                 #
+#       x ix  x   #
+#                 #
+#    x     x  x   #
+#                 #
+#    x  x  x  x   #
+#                 #
+#                 #
+#     x  x        #
+#        !        #
+#        x        #
+#                 #
+#                 #
+#  --         --- #
+#|---         --- #
+# ---         --- #
+#        AAA      #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 3        #
+# Round:  41      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 } ]
+2015-05-26 01:03:58:288 	[BOT] 	 Move: MoveRight
+2015-05-26 01:03:58:289 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 291 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:58:896 	[BOT] 	 Started.
+2015-05-26 01:03:58:911 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  42      #
+# Kills: 1        #
+# Lives: 0        #
+# Missiles: 2/2   #
+###################
+#       MMM  |    #
+#         VVV     #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  --- i  - - #
+#            |    #
+#      x  x  x    #
+#         i       #
+#   x     x  x    #
+#                 #
+#   x  x  x  x    #
+#                 #
+#                 #
+#      x          #
+#      |          #
+#         x       #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+#|---         --- #
+#         AAA     #
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 4        #
+# Round:  42      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 },
+  { id: 85, type: 'Ship', x: 12, y: 22 } ]
+2015-05-26 01:03:58:920 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:58:921 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 291 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:03:59:531 	[BOT] 	 Started.
+2015-05-26 01:03:59:546 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  43      #
+# Kills: 2        #
+# Lives: 0        #
+# Missiles: 1/2   #
+###################
+#       MMM       #
+#          VVV    #
+# ---  ---    --- #
+# ---  ---    --- #
+#  --  ---   |- - #
+#          i      #
+#     x  x  x     #
+#                 #
+#  x        x     #
+#                 #
+#  x  x  x  x     #
+#                 #
+#                 #
+#       x         #
+#                 #
+#      |   x      #
+#                 #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#|       AAA      #
+# XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 4        #
+# Round:  43      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 },
+  { id: 85, type: 'Ship', x: 11, y: 22 } ]
+2015-05-26 01:03:59:555 	[BOT] 	 Move: MoveLeft
+2015-05-26 01:03:59:555 	[BOT] 	 Finished in 25ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:04:00:164 	[BOT] 	 Started.
+2015-05-26 01:04:00:182 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  44      #
+# Kills: 3        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#          VVV    #
+# ---  ---    --- #
+# ---  ---   |--- #
+#  --  ---    - - #
+#                 #
+#    x  x         #
+#                 #
+# x        x      #
+#                 #
+# x  x  x  x      #
+#                 #
+#                 #
+#        x        #
+#                 #
+#           x     #
+#      |          #
+#                 #
+#  --         --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+#|XXX         MMM #
+###################
+# Missiles: 0/2   #
+# Lives: 1        #
+# Kills: 4        #
+# Round:  44      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:04:00:190 	[BOT] 	 Move: Shoot
+2015-05-26 01:04:00:190 	[BOT] 	 Finished in 26ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
+C:\Users\Hendrik\Downloads\2015-TestHarness-1.0.0-Windows\2015-TestHarness-1.0.0-Windows\player1>node index.js "output" 
+2015-05-26 01:04:00:822 	[BOT] 	 Started.
+2015-05-26 01:04:00:840 	[BOT] 	 Map:
+###################
+# Player 2        #
+# Round:  45      #
+# Kills: 3        #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#       MMM       #
+#          VVV    #
+# ---  ---   |--- #
+# ---  ---    --- #
+#  --  ---    - - #
+#                 #
+#   x  x          #
+#                 #
+#x        x       #
+#                 #
+#x  x  x  x       #
+#                 #
+#                 #
+#         x       #
+#                 #
+#            x    #
+#                 #
+#      |          #
+#  --         --- #
+# ---         --- #
+# ---    !    --- #
+#       AAA       #
+# XXX         MMM #
+###################
+# Missiles: 1/2   #
+# Lives: 1        #
+# Kills: 4        #
+# Round:  45      #
+# Node Sample Bot #
+###################
+PLAYER SHIP [ { id: 85, type: 'Ship', x: 8, y: 22 },
+  { id: 85, type: 'Ship', x: 9, y: 22 },
+  { id: 85, type: 'Ship', x: 10, y: 22 } ]
+2015-05-26 01:04:00:848 	[BOT] 	 Move: Nothing
+2015-05-26 01:04:00:849 	[BOT] 	 Finished in 27ms.
+[GAME]	Bot Node Sample Bot finished in 289 ms.
