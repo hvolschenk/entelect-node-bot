@@ -1,7 +1,9 @@
+// include a list of utility methods
 var util = require('./util'),
-_ = require('lodash'),
-$ = require('jquery');
+// include lodash
+_ = require('lodash');
 
+// build the "move" module
 module.exports = {
   /**
    * Decides what the next best move would be
@@ -12,7 +14,6 @@ module.exports = {
    * BuildAlienFactory|BuildMissileController|BuildShield)
    */
   getMove : function (aState) {
-    console.log('PLAYER SHIP', aState.playerShip);
     // a list of moves to make
     var moves = {
       NOTHING : 'Nothing',
