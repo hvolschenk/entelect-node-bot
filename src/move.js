@@ -631,7 +631,7 @@ module.exports = {
       // limit the offset to 4
       offset = enemyAlienColumns.length > 4 ? 4 : enemyAlienColumns.length;
       // set the real offset based on the amount of columns
-      offset = (enemyAlienGroups.left > enemyAlienGroups.right) ? -offset :
+      offset = enemyAlienGroups.left > enemyAlienGroups.right ? -offset :
       (enemyAlienGroups.left === enemyAlienGroups.right ? 0 : offset);
       // change the "actual middle" based on where we now want to be
       actualMiddleColumn += offset;

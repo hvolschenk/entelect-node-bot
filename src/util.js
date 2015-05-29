@@ -3,7 +3,9 @@ var _ = require('lodash'),
 // include the built-in filesystem module
 fs = require('fs'),
 // include the built-in path module
-path = require('path');
+path = require('path'),
+// the log separator
+logSeparator = '----';
 
 module.exports = {
   /**
@@ -15,6 +17,8 @@ module.exports = {
   log : function () {
     // write the error message to the console
     console.log.apply(this, arguments);
+    // log a new line
+    console.log(logSeparator);
   },
   /**
    * Logs an error to the console
@@ -25,6 +29,8 @@ module.exports = {
   logError : function () {
     // write the error message to the console
     console.error.apply(this, arguments);
+    // log a new line
+    console.log(logSeparator);
   },
   /**
    * Outputs the chosen move to file

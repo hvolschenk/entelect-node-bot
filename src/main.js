@@ -43,4 +43,4 @@ function main(outputPath) {
   util.log('Move: ', move);
   // output the chosen move to file
   util.outputMove(move, outputPath, logTotalTime);
-}
+};

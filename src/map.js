@@ -19,27 +19,7 @@ module.exports = {
     // the full path to the file
     filename = path.join(aOutputPath, mapFile),
     // the map text
-    mapText = null,
-    /**
-     * Handles a successful file read
-     *
-     * @method handleFileRead
-     * @param {String} aError The error that was returned (if any)
-     * @param {String} aData The file contents
-     */
-    handleFileRead = function (aError, aData) {
-      // see if an error was thrown
-      if (aError) {
-        // log the error to the terminal
-        util.logError('Error reading map file: ', aError);
-        // return an empty response
-        return null;
-      }
-      else {
-        // return the data that was found
-        return aData;
-      }
-    };
+    mapText = null;
     // check that the file exists
     if (!fs.existsSync(filename)) {
       // log an error, the file was not found
@@ -47,9 +27,9 @@ module.exports = {
     }
     else {
       // get the map text
-      mapText = fs.readFileSync(filename, 'utf8', handleFileRead);
+      mapText = fs.readFileSync(filename, 'utf8');
     }
     // return the return object
     return mapText;
   }
-}
+};

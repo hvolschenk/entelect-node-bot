@@ -13,8 +13,8 @@ module.exports = {
    * Loads the game state from file
    *
    * @method load
-   * @param {String} aOutputPath The path where the game state will be found each
-   * round in a json file named state.json
+   * @param {String} aOutputPath The path where the game state will be found
+   * each round in a json file named state.json
    */
   load : function (aOutputPath) {
     // the filename of where the file must be loaded from
@@ -29,7 +29,7 @@ module.exports = {
       return null;
     }
     // load the game state
-    gameState = this.parse(JSON.parse(fs.readFileSync(filename)));
+    gameState = this.parse(JSON.parse(fs.readFileSync(filename, 'utf8')));
     // return the full game state
     return gameState;
   },
@@ -188,5 +188,4 @@ module.exports = {
     // return the new game state
     return newGameState;
   }
-
 };
