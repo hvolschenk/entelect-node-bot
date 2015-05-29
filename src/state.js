@@ -1,8 +1,13 @@
+// include the built-in filesystem module
 var fs = require('fs'),
-    path = require('path'),
-    util = require('./util'),
-    _ = require('lodash');
+// include the built-in path module
+path = require('path'),
+// include the utils module
+util = require('./util'),
+// includes lodash
+_ = require('lodash');
 
+// the state module as a plain object
 module.exports = {
   /**
    * Loads the game state from file
@@ -25,6 +30,7 @@ module.exports = {
     }
     // load the game state
     gameState = this.parse(JSON.parse(fs.readFileSync(filename)));
+    // return the full game state
     return gameState;
   },
   /**
@@ -179,7 +185,6 @@ module.exports = {
     _.each(adjustWidths, fixWidth);
     // parse the player information
     parsePlayersInformation(playersInformation);
-//    util.log(newGameState);
     // return the new game state
     return newGameState;
   }

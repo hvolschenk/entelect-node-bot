@@ -1,69 +1,46 @@
+// include the map loader module
 var mapLoader = require('./map'),
-    moment = require('moment'),
-    stateLoader = require('./state'),
-    moveLoader = require('./move'),
-    util = require('./util');
+// include the current state of the game
+stateLoader = require('./state'),
+// include the move module
+moveLoader = require('./move'),
+// include the utility module
+util = require('./util');
 
 module.exports = main;
 
+/**
+ * Executes the bot and finds the next move
+ *
+ * @method main
+ * @param {String} outputPath The path to write the move file to
+ */
 function main(outputPath) {
-    var startTime = moment();
-    util.log('Started.');
-    var state = stateLoader.load(outputPath);
-    // logPlayersState(state);
-
-    var map = mapLoader.load(outputPath);
-    logMap(map);
-
-    //var move = getRandomMove();
-    var move = moveLoader.getMove(state);
-    util.outputMove(move, outputPath, function() {
-        var endTime = moment();
-        var runTime = endTime.diff(startTime);
-        util.log('Finished in ' + runTime + 'ms.');
-    });
-}
-
-function logPlayersState(state) {
-    if (state === null) {
-        util.logError('Failed to load state.');
-        return;
-    }
-
-    util.log('Game state:')
-    util.log('\tRound: ', state.RoundNumber);
-
-    for (var i = 0; i < state.Players.length; i++) {
-        logPlayerState(state.Players[i]);
-    }
-}
-
-function logPlayerState(player) {
-    var playerName = '\tPlayer ' + player.PlayerNumberReal + ' (' + player.PlayerName + ')';
-
-    util.log(playerName, '\tKills:', player.Kills);
-    util.log(playerName, '\tLives: ', player.Lives);
-    util.log(playerName, '\tMissiles:', player.Missiles.length, '/', player.MissileLimit);
-}
-
-function logMap(map) {
-    if (map === null) {
-        util.logError('Failed to load map.');
-    }
-
-    util.log('Map:\n' + map.text);
-}
-
-function getRandomMove() {
-    var moves = [
-        'Nothing',
-        'MoveLeft',
-        'MoveRight',
-        'Shoot',
-        'BuildShield',
-        'BuildAlienFactory',
-        'BuildMissileController'
-    ];
-
-    return moves[util.randomInt(0, moves.length)];
+  // get the time the script starts
+  var startTime = new Date(),
+  // the current state of the game
+  state = stateLoader.load(outputPath),
+  // the current map
+  map = mapLoader.load(outputPath),
+  // the move to make
+  move = moveLoader.getMove(state),
+  /**
+   * Logs the time it took to run the script
+   *
+   * @method logTotalTime
+   */
+  logTotalTime = function () {
+    // the time the script ends
+    var endTime = new Date(),
+    // the total time that the script took to execute
+    runTime = endTime - startTime;
+    // log the total time to the terminal
+    util.log('The script took ' + runTime + ' milliseconds to execute');
+  };
+  // log the map to the terminal
+  util.log(map);
+  // log the move to the terminal
+  util.log('Move: ', move);
+  // output the chosen move to file
+  util.outputMove(move, outputPath, logTotalTime);
 }

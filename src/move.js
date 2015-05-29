@@ -3,7 +3,7 @@ var util = require('./util'),
 // include lodash
 _ = require('lodash');
 
-// build the "move" module
+// build the "move" module as a plain object
 module.exports = {
   /**
    * Decides what the next best move would be

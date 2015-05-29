@@ -24,7 +24,7 @@ module.exports = {
    */
   logError : function () {
     // write the error message to the console
-    console.error.apply(this, args);
+    console.error.apply(this, arguments);
   },
   /**
    * Outputs the chosen move to file
@@ -64,9 +64,5 @@ module.exports = {
     }
     // write the move file
     fs.writeFile(filename, aMove, logWriteError);
-  },
-
-  randomInt: function(min, max) {
-      return Math.floor(Math.random() * (max - min)) + min;
   }
 };
